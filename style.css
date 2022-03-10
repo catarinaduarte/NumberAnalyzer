@@ -1,0 +1,84 @@
+@charset "UTF-8";
+@import url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+@font-face {
+    font-family: "San Francisco";
+    src: url('SF-Pro-Display-Regular.otf') format('opentype');
+
+    
+}
+
+body {
+    background: rgb(243, 243, 246);
+    font:  17px "San Francisco";
+    
+
+}
+
+header {
+    color:black;
+    text-align:center;
+    
+}
+
+header h1 {
+    
+    font-size: 55px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+header h2 {
+ 
+    font: 25px "San Francisco";
+    padding-bottom: 0px;
+    font-weight: lighter;
+
+  
+}
+
+#fnum{
+    margin-top:30px;
+    margin-bottom: 10px;
+    font:  13px "San Francisco"; 
+    text-align: center;
+}
+
+#flist{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font:  13px "San Francisco"; 
+    text-align: center;
+    width: 155px;
+}
+
+div{
+    
+    font: 16px "San Francisco";
+    padding-top:  0px;
+    text-align: center;
+    
+    
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 50px;
+    width: 300px;
+    height: auto;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.365);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+       
+}    
+
+
+footer {
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-style: italic;
+}
+
